@@ -14,9 +14,10 @@ body{
     color: #555;
     cursor: pointer;
     display: inline-block;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
     height: 46px;
+    width: 100px;
     letter-spacing: 3px;
     line-height: 34px;
     margin: 15px 45px;
@@ -29,8 +30,8 @@ body{
 .btn::before,
 .btn::after {
     box-sizing: border-box;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
     background-color: #fff;
     border-radius: 50%;
     top: -6px;
@@ -67,4 +68,4 @@ body{
 .btn.hover::after{
     -webkit-transform: rotate(225deg);
     transform: rotate(225deg);
-}
+} 
