@@ -47,7 +47,7 @@ body{
 .btn::before{
     right: -23px;
     border-left-color: #029ebe ;
-    border-botton-color: #029ebe ;
+    border-bottom-color: #029ebe ;
 }
 
 .btn::after{
