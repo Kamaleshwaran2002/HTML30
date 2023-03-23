@@ -40,7 +40,7 @@ body{
     position: absolute;
     width: 46px;
     border: 6px solid #ddd;
-    -webkit-transform: rotate(45deg);
+    -webkit-transform: rot ate(45deg);
     transform: rotate(45deg);
     z-index: -1;
 }
