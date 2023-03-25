@@ -30,8 +30,8 @@ body{
 .btn::before,
 .btn::after {
     box-sizing: border-box;
-    -webkit-transition: all 1s;
-    transition: all 1s;
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
     background-color: #fff;
     border-radius: 50%;
     top: -6px;
@@ -40,7 +40,7 @@ body{
     position: absolute;
     width: 46px;
     border: 6px solid #ddd;
-    -webkit-transform: rot ate(45deg);
+    -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     z-index: -1;
 }
@@ -57,8 +57,7 @@ body{
     border-top-color: #029ebe ;
 }
 
-.btn:hover,
-.btn.hover{
+.btn:hover{
     background-color: #fff;
 }
 
