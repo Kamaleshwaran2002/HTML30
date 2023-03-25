@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+
+body{
+    background-color: #212121;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    min-width: 230px;
+    max-width: 315px;
+    width: 100%;
+    color: #141414;
+    text-align: left;
+    line-height: 1.4em;
+    font-size: 14px;
+    box-shadow: none !important;
+}
+
+.cards *{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cards .profile-image img{
+    border-radius: 5px;
+    max-width: 100%;
+    height: 80px;
+    vertical-align: top;
+    float: left;
+}
+
+.cards figcaption{
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 25px;
+    display: inline-block;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.cards figcaption::after {
+    content: '';
+    position: absolute;
+    left: 32px;
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #333 transparent transparent transparent;
+}
+
+.cards h3,
+.cards h4,
+.cards p {
+    margin: 0 0 5px;
+}
+
+.cards h3{
+    font-weight: 600;
+    font-size: 1.2em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+}
+
+.cards h4{
+    color: #8c8c8c;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.cards p{
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    opacity: 0.9;
+    
+}
+
+.cards .icons {
+    padding: 20px 90px;
+    /* margin-left: 10px; */
+    /* float: none; */
+}
+
+.cards i{
+    padding: 10px 2px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.cards i:hover{
+    opacity: 2;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
