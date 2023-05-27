@@ -34,7 +34,10 @@ body{
 }
 .fooditems{
     width: 420px;
-    border: 1px solid black;
+    border: 1px solid rgb(221, 75, 39);
+    border-top: none;
+    /* border-bottom: none; */
+    border-radius: 50px;
     text-align: center;
     margin: 20px;
     padding-bottom: 20px;
@@ -95,4 +98,24 @@ body{
     border-radius: 50px ;
     cursor: pointer;
     
+}
+
+footer{
+    width: 90%;
+    height: 60px;
+    margin-left: 100px;
+    /* border: 1px solid rgb(221, 75, 39); */
+    background-color: rgb(221, 75, 39);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+footer p{
+    color: white;
+    font-size: larger;
+    font-weight: 600;
 }
