@@ -3,24 +3,74 @@ body{
     margin: 0;
     box-sizing: border-box;
     /* background: #333; */
-    /* flex-wrap: wrap; */
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.restname{
+    width: 90%;
+    color: rgb(221, 75, 39);
+    /* border: 1px solid black; */
+    margin-left: 100px;
+    text-align: center ;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    line-height: normal;
+    text-transform: uppercase;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: row; */
+    max-width: 90%;
+    min-width: 320px;
+}
+
+.restname h1{
+    /* text-align: center ;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    line-height: normal;
+    text-transform: uppercase; */
+    /* max-width: ; */
 }
 
 .heading{
     width: 90%;
     height: 120px;
-    margin-left: 100px;
     /* border: 1px solid black;     */
-    text-align: center;
     background: rgb(221, 75, 39);
+    margin-left: 100px;
+    /* margin-top: 0; */
+    /* margin-bottom: 25px; */
+    /* padding-top: 5px; */
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 90%;
+    min-width: 320px;
+    max-height: 120px;
+    min-height: 80px;
+}
+
+.heading h1, .heading h3{
+    text-align: center;
     color: white;
-    font-size: 22px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: 800;
     /* line-height: 20px; */
     text-transform: uppercase;
     letter-spacing: 6px;
-    margin-bottom: 25px;
 }
+
+
 
 .main{
    width: 1900px;
