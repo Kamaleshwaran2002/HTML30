@@ -73,14 +73,14 @@ body{
 
 
 .main{
-   width: 1900px;
+   width: 90%   ;
    /* border: 1px solid blue; */
    margin-left: 100px;
    display: flex;
    justify-content: center;
    align-items: center;
    max-width: 1800px;
-   min-width: 800px;
+   min-width: 320px;
    flex-wrap: wrap;
 }
 .fooditems{
@@ -113,7 +113,7 @@ body{
 }
 
 .foodimg img{
-    max-width: 420px;
+    max-width: 320px;
     min-width: 320px;
     max-height: 250px;
     min-height: 250px;
@@ -181,10 +181,17 @@ footer{
     justify-content: center;
     flex-direction: column;
 
+    max-width: 90%;
+    min-width: 320px;
+
 }
 
 footer p{
     color: white;
     font-size: larger;
     font-weight: 600;
+}
+
+@media (max-width: 320px){
+
 }
