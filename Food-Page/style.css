@@ -3,9 +3,9 @@ body{
     margin: 0;
     box-sizing: border-box;
     /* background: #333; */
-    display: flex;
+    /* display: flex; */
     /* align-items: center; */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .restname{
@@ -41,6 +41,8 @@ body{
     /* max-width: ; */
 }
 
+/* heading */
+
 .heading{
     width: 90%;
     height: 120px;
@@ -70,7 +72,7 @@ body{
     letter-spacing: 6px;
 }
 
-
+/* main */
 
 .main{
    width: 90%   ;
@@ -168,6 +170,8 @@ body{
     
 }
 
+/* footer */
+
 footer{
     width: 90%;
     height: 60px;
@@ -192,6 +196,87 @@ footer p{
     font-weight: 600;
 }
 
-@media (max-width: 320px){
+/* meadia query */
 
+@media (max-width: 500px) and (min-width:300px){
+
+    .restname{
+        margin-left:20px;
+
+    }
+    
+    .heading{
+        margin-left: 20px;
+
+    }
+
+    .main{
+        margin-left: 20px;
+        /* margin: 10px; */
+
+    }
+
+    .btn{
+        font-size: 10px ;
+        font-weight: 400;
+    }
+
+    footer{
+        margin-left: 20px;
+        /* margin: 10px; */
+
+    }
+
+    h1{
+        font-size: large;
+    }
+
+    h3{
+        font-size: large;
+    }
+
+    h4{
+        font-size: large;
+
+    }
 }
+
+/* @media (max-width:800px) and (min-width:500px){
+    .restname{
+        margin-left:20px;
+
+    }
+    
+    .heading{
+        margin-left: 20px;
+
+    }
+
+    .main{
+        margin-left: 20px;
+
+    }
+
+    .btn{
+        font-size: 10px ;
+        font-weight: 400;
+    }
+
+    footer{
+        margin-left: 20px;
+
+    }
+
+    h1{
+        font-size: large;
+    }
+
+    h3{
+        font-size: large;
+    }
+
+    h4{
+        font-size: large;
+
+    }
+} */
