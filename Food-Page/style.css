@@ -244,17 +244,17 @@ footer p{
 
 @media (max-width:800px) and (min-width:500px){
     .restname{
-        margin-left:30px;
+        margin-left:40px;
 
     }
     
     .heading{
-        margin-left: 30px;
+        margin-left: 40px;
 
     }
 
     .main{
-        margin-left: 30px;
+        margin-left: 40px;
 
     }
 
@@ -264,7 +264,7 @@ footer p{
     }
 
     footer{
-        margin-left: 20px;
+        margin-left: 40px;
 
     }
 
